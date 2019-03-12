@@ -1,0 +1,17 @@
+set_io lpc_clock 112
+set_io lpc_ad[0] 113
+set_io lpc_ad[1] 114
+set_io lpc_ad[2] 115
+set_io lpc_ad[3] 116
+set_io lpc_frame 117
+set_io lpc_reset 118
+set_io ext_clock 21
+set_io fsdi 9
+set_io fsclk 8
+set_io fscts 4
+set_io fsdo 7
+set_io lpc_clock_led 99
+set_io lpc_frame_led 98
+set_io lpc_reset_led 97
+set_io valid_lpc_output_led 96
+set_io overflow_led 95

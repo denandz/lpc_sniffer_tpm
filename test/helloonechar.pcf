@@ -1,0 +1,5 @@
+set_io ext_clock 21
+set_io uart_tx_pin 8
+set_io uart_tx_led 96
+set_io uart_clock_led 97
+set_io counter_led 95

@@ -1,0 +1,9 @@
+top.bin
+lpc_sniffer.bin
+top.blif
+top.ex
+top.txt
+*.sw?
+*.vcd
+*.vvp
+*.txt
