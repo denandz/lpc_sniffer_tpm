@@ -1,9 +1,8 @@
 # TPM Specific lpc sniffer (low pin count) for ice40 stick
 
-Turn the ice40 stick into a LPC sniffer, only logging messages addressed to `0x0024`. This repository is a duplicate of [https://github.com/lynxis/lpc_sniffer/](https://github.com/lynxis/lpc_sniffer/).
+Turn the ice40 stick into a LPC sniffer, only logging TPM specific messages. This repository is a duplicate of [https://github.com/lynxis/lpc_sniffer/](https://github.com/lynxis/lpc_sniffer/), with modifications made to only log messages with start field `0101` and address `24`.
 
-This project was used to extract BitLocker keys by sniffing the LPC bus when BitLocker was enabled in it's default configuration. More information is available [in this post](https://pulsesecurity.co.nz/TPM-sniffing).
-
+This project was used to extract BitLocker VMK keys by sniffing the LPC bus when BitLocker was enabled in it's default configuration. More information is available [in this post](https://pulsesecurity.co.nz/TPM-sniffing).
 
 # features
 
