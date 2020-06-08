@@ -45,6 +45,9 @@ clean:
 test: buffer.vvp mem2serial.vvp ringbuffer.vvp uart_tx_tb.vvp top_tb.vpp test/helloonechar_tb.vvp test/helloworld_tb.vvp
 
 install: top.bin
-	iceprog top.bin
+	iceprog lpc_sniffer.bin
+	
+prog: top.bin
+	iceprog lpc_sniffer.bin
 
 .PHONY: install
